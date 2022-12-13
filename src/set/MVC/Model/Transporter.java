@@ -69,7 +69,9 @@ import java.math.*;
     
     // Method to unload cars
     public void unloadCar(){
+        if (ramp.getRampPositionDown() == true){
         loadingSpace.unloadCar();
+         }
     }
     
     // Method overloaded to include moving loaded cars coordinates as well
